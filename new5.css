@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    display: flex;
+    height: 15vh;
+
+}    
+ul li{
+    color: white;
+    font-family: cursive;
+}
+ul{
+    list-style: none;
+    display: flex;justify-content: space-around;
+    width: 100%;
+}
+.k{
+    height: 20vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+

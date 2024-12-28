@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+@keyframes ArcEnCiel {
+0% { background-color: purple; }
+25% { background-color: blue; }
+50% { background-color: green; }
+75% { background-color: yellow; }
+100% { background-color: red; }
+}
+#myDiv1{
+animation-name: ArcEnCiel;
+animation-duration: 10s;
+}
+.div1 {
+width: 300px;
+height: 100px;
+width : 60%;
+margin:auto;
+margin-top: 150px;;
+background-color: yellow;
+border: 1px solid black;
+}
+
+
+
+.div2 {
+width: 300px;
+height: 100px;
+width : 60%;
+margin:auto;
+margin-top: 150px;;
+background-color: yellow;
+border: 1px solid black;
+text-align: center;
+}
+
+#myDiv2{
+animation-name: AR;
+animation-duration: 10s;
+}
+@keyframes AR {
+0% {
+background-color: purple;
+width : 300px;
+height :100px;
+color : red;
+}
+25% {
+background-color: blue;
+width : 350px;
+height :150px;
+color:yellow;
+border-radius: 25px;
+}
+50% {
+background-color: green;
+width:300px;
+height :100px;
+color:white;
+border-radius: 100px;
+}
+75% {
+background-color: yellow;width:250px;
+height :50px;
+color:blue;
+border-radius: 200px;
+}
+100% {
+width:300px;
+height :100px;
+background-color: red;color:purple;
+border-radius: 20px;
+}
+}
+
+
+
+@keyframes ArcEnCiel {
+0% {background-color:purple; left:0px; top:0px;}
+25% {background-color:blue; left:200px; top:0px;}
+50% {background-color:green; left:200px; top:200px;}
+75% {background-color:yellow; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}
+}
+.div3 {
+width: 300px;
+height: 100px;
+width : 60%;
+margin:auto;
+margin-top: 150px;;
+background-color: yellow;
+border: 1px solid black;
+text-align: center;
+}
+#myDiv3{
+width: 100px;
+height: 100px;
+background-color: black;
+position: relative;
+animation: ArcEnCiel 5s linear infinite alternate;
+}
+
+</style>
+
+</head>
+<body>
+    <div id="myDiv1" class="div1"> Animation Arc en ciel</div>
+
+    <div id="myDiv2" class="div2"> Animation Arc en ciel</div>
+
+
+    <div id="myDiv3" class="div3"> Animation Arc en ciel</div>
+</body>
+</html>

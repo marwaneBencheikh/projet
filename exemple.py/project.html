@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+</head>
+<body>
+
+    <div class="a">
+        <h1 class="a"><br>Bonjour a Tous c est Marwane bencheikh Store,  Livraison Gratuite Pour Les Commandes Superieures a 50 DH</h2>
+    </div>
+        <a href="project2.html"><i class="fa-solid fa-user" id="b"></i></a><br>
+        <a href="project3.html"><i class="fa-solid fa-cart-shopping" id="c"></i></a>
+
+
+
+        <div class="container"> 
+            <div class=" text-center text-uppercase">
+                <h1>Les produits </h1>
+            </div>
+            <div class="teams">
+                <div class="box1">
+                    <img src="zliga.png"/>
+                    <h3>ZELLIGE</h3>
+                    <h4>50dh</h4>
+                    <div class="icon-shop"><a href="project.html" class="shop">
+                        <i class=" fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="btn btn-success m-1"><a href="project4.html"><i class="f">Comander</i></a></div>
+                    <div class="btn btn-warning m-1">Plus d'infos</div>
+                </div>
+    
+    
+                <div class="box1"> 
+                    <img src="zrbia.png"/>
+                    <h3>ZRABI</h3>
+                    <h4>1150dh</h4>
+                    <div class="icon-shop">
+                        <a href="project.html" class="shop"><i class=" fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="btn btn-success m-1"><a href="project6.html"><i class="f">Comander</i></a></div>
+                    <div class="btn btn-warning m-1">Plus d'infos</div>
+                </div>
+                <div class="box1">
+                    <img src="bghaa.png"/>
+                    <h3>BLAGHI</h3>
+                    <h4>150dh</h4>
+                    <div class="icon-shop">
+                        <a href="project.html" class="shop"><i class=" fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="btn btn-success m-1"><a href="project5.html"><i class="f">Comander</i></a></div>
+                    <div class="btn btn-warning m-1">Plus d'infos</div>
+                </div>
+    
+                <div class="box1"> 
+                    <img src="mkhada.png"/>
+                    <h3>COUSSINS</h3>
+                    <h4>150dh</h4>
+                    <div class="icon-shop">
+                        <a href="project.html" class="shop"><i class=" fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="btn btn-success m-1"><a href="project7.html"><i class="f">Comander</i></a></div>
+                    <div class="btn btn-warning m-1">Plus d'infos</div>
+                </div>
+            </div>
+        </div>
+    
+
+    <div id="sh">
+        <a href="#" id="shop">SHOP</a>
+        <div id="list">
+            <a href="project4.html">ZELLIGE</a>
+            <a href="project5.html">BLAGHI</a>
+            <a href="project6.html">ZRABI</a>
+            <a href="project7.html">COUSSINS</a>
+        </div>
+    </div>
+    <script>
+        const shop = document.getElementById('shop');
+        const list = document.getElementById('list');
+
+        shop.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            if (list.style.display === 'block') {
+                list.style.display = 'none';
+            } else {
+                list.style.display = 'block';
+            }
+        });
+
+      
+    
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box:hover{
+background-color: black;
+}
+.box {
+border : 1px aqua solid;
+display: block;
+width: 100px;
+height: 100px;
+background-color: white;
+transition: background-color 4s;
+}
+
+.box1 {
+border : 1px aqua solid;
+width: 100px;
+height: 100px;
+background-color: white;
+transition-property: opacity, left, width, height;
+transition-duration : 10s, 5s, 3s, 5s;}
+.box1:hover{
+background-color: black;
+width : 500px;
+height : 500px;
+}
+
+
+span {
+font-size: 14px;
+transition-property: font-size;
+transition-duration: 4s;
+transition-delay: 2s;
+}
+span:hover {
+font-size: 36px;
+}
+
+
+a {
+color: white;
+background-color: black;
+transition-property: color, background-color;
+transition-duration:2s; }
+a:hover, a:focus {
+color: black;
+background-color: white;
+}
+
+
+.box3 {
+border : 1px aqua solid;
+width: 100px;
+height: 100px;
+background-color: white;
+left :100px;
+top : 40px;
+position: absolute;
+transition-property: backgroundcolor, left, top, width, height;
+transition-duration : 5s, 5s, 3s, 5s;
+transition-delay :1s;
+transition-timing-function: ease(10);
+}
+.box3:hover{
+background-color: rgb(126, 172, 233);
+width : 500px;
+height : 500px;
+left:500px;
+top : 400px;
+}
+    </style>
+</head>
+<body>
+    <p> Exemple proprietés transition-property et transition-duration </p><div class="box"></div>
+
+    <p> Exemple proprietés transition-property et transition-duration </p><div class="box1"></div>
+
+    <p>Exemple de proprietés de transition <span>transitionproperty , transition-duration et transition-delay</span></p>
+<div class="box1"></div>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">À propos</a>
+    <a href="#">Contact</a>
+    <a href="#">Liens</a>
+    </nav>
+
+
+    <div class="box3"> Ceci est un exemple </div>
+</body>
+</html>
